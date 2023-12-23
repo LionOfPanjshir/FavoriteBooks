@@ -2,9 +2,7 @@ import UIKit
 
 class BookTableViewController: UITableViewController {
     
-    var books: [Book] = [
-        Book(title: "asdf", author: "asdf", genre: "asdf", length: "12345")
-    ]
+    var books: [Book] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
